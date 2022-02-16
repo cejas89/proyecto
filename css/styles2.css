@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Dongle', sans-serif;
+    
+    
+}
+
+/*--------------------------HEADER GRAL -----------------------------*/
+
+.header-container {
+    width: 100%;
+    border-bottom: solid red 5px;
+    background-color: #759eff;
+    display: inline-block;
+    height: 15%;
+}
+
+.img-container {
+    width: 10%;
+    display: inline-block;
+    
+}
+
+.img-container img {
+    border-radius: black solid 1px;
+    width: 55px;
+    
+}
+
+.nav-container {
+    display: inline-block;
+    margin-left: 250px;
+    
+}
+
+.list-container {
+    width: 100%;
+    list-style: none;
+}
+
+.list-container li {
+    width: 100px;
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+.list-container a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.sigin {
+    display: inline-block;
+    width: 20%;
+}
+
+.sigin__form{
+    display: flex;
+}
+
+.sigin__form input {
+    margin: 2px;
+}
+
+.sigin__form button {
+    width: 35px;
+}
+
+
+/*-------------------------- MAIN GRAL -----------------------------*/
+
+main {
+    background: #fabfb7;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-container {
+    font-size: 40px;
+    
+}
+
+.section-index {
+  font-family: 'Dongle', sans-serif;
+  width: 100%;
+}
+
+.section-index h1 {
+  font-size: 100px;
+}
+
+.section-index p {
+  font-size: 50px;
+}
+
+.section-index a {
+  font-style: italic;
+  font-size: 100px;
+  color: white;
+}
+
+/* Carousel */
+/*.pic-ctn {
+    width: 100vw;
+    height: 200px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+  
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+
+
+
+/*-------------------------- ABOUT -----------------------------*/  
+
+.about {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  display: inline-block;
+
+}
+
+.about__container {
+  display: inline-block;
+  width: 40%;
+}
+
+
+.about__img {
+  display: inline-block;
+  width: 50%;
+}
+
+.about__img img {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 500px;
+  height: 700px;
+}
+
+
+
+/*-------------------------- PRODUCTS -----------------------------*/
+
+
+
+.product__line {
+  text-align: center;
+  font-size: 50px;
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-container {
+  width: 25%;
+  border: black 2px solid;
+  margin: 5px;
+
+}
+
+
+.product__container__img {
+
+}
+
+.product__container__img img {
+  width: 400px;
+  height: 300px;
+}
+
+.product__container__tittle {
+  text-align: center;
+  
+  margin: 10px;
+}
+
+.product__container__description {
+  font-size: 15px;
+  background-color: lightgrey;
+  border: limegreen solid 1px;
+}
+
+/*-------------------------- SERVICES -----------------------------*/
+
+
+.services {
+  display:flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.services__tittle {
+  width: 30%;
+}
+
+.services__tittle h1 {
+  width: 30%;
+  font-size: 50px;
+}
+
+.services__container__img {
+  width: 70%;
+}
+
+.services__container__img img {
+  margin: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+.services__container__img-1 {
+  display: flex;
+  justify-content: start;
+}
+
+.services__container__img-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+/*-------------------------- CONTACT -----------------------------*/
+
+.contact__container {
+  display: flex;
+}
+
+.contact__description {
+  width: 30%;
+  padding: 50px;
+  margin-left: 100px;
+}
+
+.contact__description h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.contact__description h3{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact__description ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30x;
+  list-style: none;
+}
+
+
+.form-container {
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-container label {
+  font-size: 40px;
+}
+
+.form-container input {
+  width: 600px;
+  height: 50px;
+}
+
+.form-container textarea {
+  width: 600px;
+}
+
+.form-container-submit {
+  background: black;
+  color: white;
+  font-size: 40px;
+}
+
+
+
+/*-------------------------- NEWSLETTER -----------------------------*/
+
+.newsletter {
+  display: inline-block;
+  background-color: blue;
+  width: 100%;
+  font-size: 20px;
+  height: 100px;
+}
+
+
+.newsletter__container {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.newsletter__input {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  background: white;
+
+}
+
+.newsletter__input__box {
+  font-size: 15px;
+  width: 60%;
+  border: none;
+  border-color: white;
+}
+
+.newsletter__input button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+/*-------------------------- FOOTER -----------------------------*/
+
+.footer-container {
+    display: inline-block;
+    width: 100%;
+    border-top: solid 5px red;
+    background-color: #759eff;
+
+}
+
+.copyright-container {
+    display: inline-block;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.redes-container{
+  display: inline-block; 
+  margin-left: 800px;
+}
